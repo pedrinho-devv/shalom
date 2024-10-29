@@ -41,6 +41,7 @@ body {
   background-size: cover;
   height: 100vh;
   animation: slide 25s infinite;
+  background-color: var(--color-accent);
 }
 
 @keyframes slide {
@@ -570,6 +571,7 @@ button:hover {
 /* SESSÃO CONTATO */
 .contato{
   width: 100%;
+  height: 100vh;
   background-color: var(--color-accent);
   display: flex;
   justify-content: center;
@@ -630,4 +632,33 @@ button:hover {
 
 .fa-brands:hover{
   transform: scale(1.1)
+}
+
+/* FOOTER */
+footer{
+  background-color: var(--color-background-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.menu-links-footer{
+  display: flex;
+  gap: 10px;
+}
+
+.menu-links-footer a{
+    color: var(--color-accent);
+    font-family: "PP Neue Montreal", sans-serif;
+  }
+
+.copyrights{
+  padding: 9px 0;
+  background-color: #7E7A7A;
+  width: 100%;
+  text-align: center;
+  color: var(--color-background-dark);
 }
