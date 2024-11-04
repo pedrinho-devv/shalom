@@ -310,11 +310,11 @@ i {
 }
 
 .whatsapp {
-  background-color: #25d366; /* Cor do WhatsApp */
+  background-color: #25d366; 
 }
 
 .whatsapp:hover {
-  background-color: #128c7e; /* Cor ao passar o mouse */
+  background-color: #128c7e; 
 }
 
 .button i {
@@ -363,7 +363,7 @@ i {
 
 .service-cards {
   display: flex;
-  flex-wrap: wrap; /* Para permitir que os cards se ajustem em telas menores */
+  flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
 }
@@ -373,22 +373,21 @@ i {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
   overflow: hidden;
   width: 100%;
-  max-width: 350px; /* Ajuste de largura máxima */
+  max-width: 350px;
   margin-top: 3rem;
   transition: transform 0.3s ease-in-out;
   background-color: var(--color-primary);
 }
 
 .card:hover {
-  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  transform: scale(1.05); 
 }
 
 .card-img-top {
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
   cursor: pointer;
-  transition: filter 0.3s ease-in-out;
+  
 }
 
 .card-img-top:hover {
@@ -418,6 +417,9 @@ i {
   color: var(--color-background-dark);
   line-height: 1.6;
 }
+
+
+
 /* Serviços */
 .serviços {
   background-color: var(--color-accent);
@@ -443,8 +445,6 @@ i {
   width: 100%;
   max-width: 350px;
   margin-top: 3rem;
-  transition: transform 0.3s ease-in-out;
-  background-color: var(--color-primary);
 }
 
 .card:hover {
@@ -454,14 +454,11 @@ i {
 .card-img-top {
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
   cursor: pointer;
-  transition: filter 0.3s ease-in-out;
+  filter: brightness(0.8);
 }
 
-.card-img-top:hover {
-  filter: grayscale(0);
-}
+
 
 .card-body {
   position: absolute;
