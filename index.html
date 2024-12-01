@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shalom Eventos</title>
+
+    <!-- link animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- css style link -->
     <link rel="stylesheet" href="/css/style.css" />
     <!-- font neue montreal -->
@@ -53,20 +56,19 @@
         </h1>
         <p class="p-main">
           Na Shalom Eventos, cada detalhe é pensado para transformar sua
-          celebração em um momento inesquecível. Com mais de 5 anos de
-          experiência, estamos prontos para realizar o evento dos seus sonhos,
-          desde casamentos e formaturas até aniversários e muito mais.
+          celebração em um momento inesquecível. 
         </p>
       </div>
       <div class="bnts">
-        <button class="button-main">Contato</button>
+        <button class="button-main"> <a href="https://wa.me/558699405-2599"></a>Contato</button>
       </div>
     </section>
     <section class="sobre">
       <div class="logo-sobre">
-        <h2 class="title-about">Sobre</h2>
-        <p class="title-us">Nós</p>
+        <h2 data-aos="fade-up" class="title-about">Sobre</h2>
+        <p data-aos="fade-up" class="title-us">Nós</p>
         <img
+        data-aos="fade-up"
           class="img-logo-main"
           src="/img/logo-main.jpg"
           alt="logo-de-sobre"
@@ -80,10 +82,10 @@
           em momentos únicos, sempre com profissionalismo e dedicação.
         </p>
         <div class="icons-about">
-          <a href="#" class="button instagram">
+          <a href="https://www.instagram.com/shalom_eventoos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="button instagram">
             <i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="#" class="button whatsapp">
+          <a href="https://wa.me/558699405-2599" class="button whatsapp">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
         </div>
@@ -101,13 +103,13 @@
       </p>
     </section>
     <!-- Seção de serviços -->
-    <section class="serviços">
+    <section  data-aos="fade-right" class="serviços">
       <div class="titles">
         <h2 class="title-our-services">Nossos</h2>
         <p class="title-our">Serviços</p>
       </div>
       <div class="service-cards">
-        <div class="card">
+        <div  data-aos="fade-right" class="card">
           <img
             src="/img/cards (2).jpg"
             class="card-img-top"
@@ -121,7 +123,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div  data-aos="fade-right" class="card">
           <img
             src="/img/cards (3).jpg"
             class="card-img-top"
@@ -134,7 +136,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div  data-aos="fade-right" class="card">
           <img
             src="/img/cards (1).jpg"
             class="card-img-top"
@@ -152,7 +154,7 @@
 
     <!-- galeria -->
 
-    <section class="serviços">
+    <section  data-aos="fade-right" class="serviços">
       <div class="titles">
         <h2 class="title-our-services">Nossa</h2>
         <p class="title-our">Galeria</p>
@@ -195,18 +197,18 @@
     <!-- CONTATO -->
     <section class="contato">
       <div class="all-contact">
-      <div class="contato-main">
+      <div  data-aos="fade-right" class="contato-main">
         <h2 class="contato-tittle">Contate-nos</h2>
         <p class="p-contato">Vamos conversar e começar a planejar o evento dos seus sonhos! Entre em contato conosco e transforme sua celebração em uma experiência inesquecível.</p>
       </div>
         <div class="contact">
-          <a href="#" class="button-i">
+          <a href="https://www.instagram.com/shalom_eventoos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="button-i">
             <i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="#" class="button-w">
+          <a href="https://wa.me/558699405-2599" class="button-w">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
-          <a class="bnt-contato" href="#">Contate-nos</a>
+          <a class="bnt-contato" href="https://wa.me/558699405-2599">Contate-nos</a>
       </div>
     </div>
     </section>
@@ -221,5 +223,10 @@
     </footer>
     <!-- links main js -->
     <script src="js/script.js"></script>
+    <!-- animation js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -70,7 +70,7 @@ body {
     background-image: url(/img/8.jpg);
   }
   100% {
-    background-image: url(/img/1.jpg); /* Reinicia com a primeira imagem */
+    background-image: url(/img/1.jpg); 
   }
 }
 
@@ -242,7 +242,7 @@ i {
   color: var(--color-background-dark);
   position: absolute;
   top: 109%;
-  left: 50%;
+  left: 40%;
   transform: translateX(-50%);
   font-size: 3rem;
   font-family: "PP Neue Montreal", sans-serif;
