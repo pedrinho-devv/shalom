@@ -43,6 +43,9 @@ body {
   animation: slide 25s infinite;
   background-color: var(--color-accent);
 }
+ html{
+  scroll-behavior: smooth;
+ }
 
 @keyframes slide {
   0% {
@@ -218,7 +221,7 @@ i {
 
 
 /* sessão de sobre */
-.sobre {
+#sobre {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -323,7 +326,7 @@ i {
 }
 
 /* Serviços */
-.serviços {
+#serviços {
   background-color: var(--color-accent);
   display: flex;
   flex-direction: column;
@@ -533,7 +536,7 @@ button:hover {
 }
 
 /* SESSÃO CONTATO */
-.contato{
+#contato{
   width: 100%;
   height: 100vh;
   background-color: var(--color-accent);
