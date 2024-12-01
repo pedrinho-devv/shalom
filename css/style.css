@@ -152,7 +152,7 @@ img {
   justify-content: center;
   position: absolute;
   top: -3;
-  left: 120px;
+  left: 110px;
 }
 
 
@@ -160,7 +160,7 @@ img {
 .ham-menu {
   position: absolute;
   top: 50%;
-  right: 20px; /* Ajustado para manter espaçamento fixo à direita */
+  right: 20px; 
   transform: translateY(-50%);
 }
 

@@ -1,6 +1,8 @@
 const meubnt = document.querySelector(".ham-menu");
 const navBar = document.querySelector(".nav-bar");
 
+
+
 function handleClick() {
     navBar.classList.toggle("active"); 
 }
