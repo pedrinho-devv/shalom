@@ -322,35 +322,6 @@ i {
   padding: 2px 4px;
 }
 
-/* hero banner */
-.banner {
-  background-color: var(--color-accent);
-}
-
-.banner-logo {
-  width: 100%;
-  min-height: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.banner-logo img {
-  filter: brightness(0.8);
-}
-
-.p-event-banner {
-  font-size: 25px;
-  letter-spacing: 2px;
-  text-align: right;
-  color: var(--color-background-dark);
-  font-family: "Aretha Bridge", sans-serif;
-  position: absolute;
-  top: 210%;
-  left: 20%;
-  padding: 40px 10px;
-}
-
 /* Serviços */
 .serviços {
   background-color: var(--color-accent);
