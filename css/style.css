@@ -187,6 +187,7 @@ i {
 .p-main {
   font-family: "PP Neue Montreal", sans-serif;
   font-size: 1rem;
+  font-weight: bold;
   line-height: 20px;
   color: var(--color-background-dark);
   margin-bottom: 2rem;
