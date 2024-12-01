@@ -215,7 +215,11 @@ i {
   align-items: center;
 }
 
-.button-main {
+.text-color-bnt{
+  color:white;
+}
+
+.button-main{
   margin-top: 12rem;
   padding: 10px 20px;
   border: none;
@@ -642,3 +646,4 @@ footer{
   text-align: center;
   color: var(--color-background-dark);
 }
+

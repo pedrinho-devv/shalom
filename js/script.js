@@ -26,6 +26,7 @@ document.addEventListener("click", function(event) {
 });
 
 
+
 // CARROSEL DA GALERIA
 
 let slideIndex = 0;
