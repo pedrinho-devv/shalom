@@ -215,11 +215,7 @@ i {
   align-items: center;
 }
 
-.text-color-bnt{
-  color:white;
-}
-
-.button-main{
+.button-main {
   margin-top: 12rem;
   padding: 10px 20px;
   border: none;
@@ -509,7 +505,7 @@ i {
 .carousel {
   position: relative;
   max-width: 600px;
-  margin: auto;
+  margin: 0 30px;
   overflow: hidden;
   border-radius: 10px;
 }
