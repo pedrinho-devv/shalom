@@ -604,6 +604,16 @@ button:hover {
     margin-left: 1rem;
 }
 
+.bnt-contato-main{
+  padding: 10px 20px;
+  background-color: var(--color-background-dark);
+  border-radius: 10px;
+  font-weight: bold;
+  color: var(--color-accent);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-left: 1rem;
+}
+
 .fa-brands{
   color: var(--color-background-dark);
   transition: 0.3s ease-in-out;
