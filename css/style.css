@@ -248,7 +248,7 @@ i {
   font-size: 3rem;
   letter-spacing: 4px;
   font-family: "Aretha Bridge", sans-serif;
-  opacity: 0.4;
+  opacity: 0.6;
   position: relative;
   z-index: 1;
 }
@@ -612,6 +612,12 @@ button:hover {
   color: var(--color-accent);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-left: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.bnt-contato-main:hover{
+  background-color: rgb(217, 215, 215);
+  color: var(--color-background-dark);
 }
 
 .fa-brands{
